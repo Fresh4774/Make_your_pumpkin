@@ -1,0 +1,96 @@
+html {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: MediumOrchid;
+}
+body {
+  width: 100%;
+  max-width: 1200px;
+}
+
+#jack_container {
+  width: 100%;
+  position: relative;
+  font-size: 0;
+  text-align: center;
+}
+#jack_container * {
+  box-sizing: border-box;
+}
+
+.jack_inner_contain {
+  width: 100%;
+  max-width: 320px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  padding: 1rem;
+  position: relative;
+}
+
+.jack_inner_contain p {
+  font-size: 12px;
+  font-family: system-ui;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#pumpkin {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pumpkin_feature {
+  display: block;
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.pumpkin_feature:nth-child(2) {
+  bottom: 50%;
+}
+.pumpkin_feature:nth-child(3) {
+  height: 15%;
+  bottom: 35%;
+}
+.pumpkin_feature:nth-child(4) {
+  bottom: 10%;
+}
+
+.feature_box {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.feature_box img {
+  max-width: 100%;
+  display: block;
+  margin: .5rem auto;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  border: solid 5px #42210B;
+  font-size: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #F9A12C;
+  color: #42210B;
+  transition: .3s;
+  font-family: "Creepster", sans-serif;
+}
+button:hover {
+  color:#F15A24;  
+}
